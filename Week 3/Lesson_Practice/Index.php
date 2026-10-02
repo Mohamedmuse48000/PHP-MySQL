@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+    
 //creating multidimensional array 
 $info = array (
     array (10,20,"CA233",90.12),
@@ -85,6 +86,7 @@ if (in_array(90, $multi[1]))
 {
     echo "The size of array \$info is " . count($info);
 }
+
     ?>
 </body>
 </html>
